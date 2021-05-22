@@ -1,0 +1,113 @@
+.page{
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+}
+.header {
+	margin: 70px 70px 70px 70px;
+	
+	
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 2px solid black;
+}
+.menu-left {
+}
+.minimo {
+font-family: Inconsolata;
+font-size: 30px;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #000000;
+}
+.menu-right {
+	display: flex;
+	
+	
+}
+.menu-right ul{
+display: flex;
+justify-content: space-between;
+min-width: 575px;
+}
+.menu-right-link a{
+text-decoration: none;
+font-family: 'Playfair Display';
+font-size: 14px;
+text-transform: uppercase;
+color: #626262;
+}
+.image-twogirls{
+	padding-top: 77px;
+}
+header img{
+	width: 100%;
+}
+.menu-content {
+}
+
+.content-diary {
+}
+.photodiary {
+}
+.getaway {
+}
+.text {
+}
+.comment {
+}
+.grid-loyout {
+}
+.block1 {
+}
+.block-photo {
+}
+.block-info {
+}
+.block-title {
+}
+.block-text {
+}
+.block2 {
+}
+.block3 {
+}
+.block4 {
+}
+.feedback {
+}
+.feeback-text {
+}
+.cool-button {
+}
+.button-img {
+}
+.main-button {
+}
+.load-more {
+}
+.button {
+}
+.footer {
+	border: 2px solid black;
+	margin-top: auto;
+}
+.content-down {
+}
+.content-down__left {
+}
+.menu-down {
+}
+.content-down__right {
+}
+.facebook {
+}
+.twitter {
+}
+.instagram {
+}
