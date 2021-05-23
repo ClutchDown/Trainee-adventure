@@ -14,7 +14,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border: 2px solid black;
+	
 }
 .menu-left {
 }
@@ -52,34 +52,78 @@ header img{
 }
 
 .content-diary {
+	max-width: 900px;
+	margin: 0 auto;
 }
 .photodiary {
+font-family: Ubuntu;
+font-size: 14px;
+text-transform: uppercase;
+color: #b4ad9e;
+padding-bottom: 29px;
 }
 .getaway {
+font-family: 'Playfair Display';
+font-size: 30px;
+color: #626262;
+padding-bottom: 34px;
 }
 .text {
+	line-height: 24px;
+font-family: 'Playfair Display';
+font-size: 14px;
+color: #626262;
 }
 .comment {
+font-family: Ubuntu;
+font-size: 14px;
+text-transform: uppercase;
+color: #b4ad9e;
+padding-top: 52px ;
 }
 .grid-loyout {
+	padding-top: 134px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	max-width: 900px;
+	margin: 0 auto;
+	grid-column-gap: 32px;
+	grid-row-gap: 132px;
 }
-.block1 {
+.block {
+
 }
 .block-photo {
 }
 .block-info {
+font-family: Ubuntu;
+font-size: 14px;
+text-transform: uppercase;
+color: #b4ad9e;
+padding: 32px 0 32px 0;
 }
 .block-title {
+	font-family: 'Playfair Display';
+font-size: 30px;
+color: #626262;
+padding-bottom: 32px;
 }
 .block-text {
-}
-.block2 {
-}
-.block3 {
-}
-.block4 {
+font-family: 'Playfair Display';
+font-size: 14px;
+line-height: 24px;
+color: #626262;
 }
 .feedback {
+	padding-top: 122px;
+	max-height: 287px;
+	background-color: #f0f0f0;
+	
+}
+.feedback-wrapper{
+
+	
 }
 .feeback-text {
 }
@@ -88,14 +132,28 @@ header img{
 .button-img {
 }
 .main-button {
+	
 }
 .load-more {
+	display: flex;
+	justify-content: center;
+	padding: 88px 0 88px 0;
 }
 .button {
+	width: 164px;
+height: 60px;
+border: 1px solid #626262;
+font-family: 'Playfair Display';
+font-size: 20px;
+line-height: 24px;
+font-weight: 400;
+color: #626262;
+text-decoration: none;
 }
 .footer {
 	border: 2px solid black;
 	margin-top: auto;
+	
 }
 .content-down {
 }
