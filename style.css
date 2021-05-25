@@ -1,20 +1,16 @@
 .page{
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-
+overflow: hidden;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
 }
 .header {
-	margin: 70px 70px 70px 70px;
-	
-	
+margin: 70px 70px 70px 70px;
 }
 .menu {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 .menu-left {
 }
@@ -26,9 +22,7 @@ letter-spacing: 0.2em;
 color: #000000;
 }
 .menu-right {
-	display: flex;
-	
-	
+display: flex;
 }
 .menu-right ul{
 display: flex;
@@ -43,17 +37,14 @@ text-transform: uppercase;
 color: #626262;
 }
 .image-twogirls{
-	padding-top: 77px;
+padding-top: 77px;
 }
 header img{
-	width: 100%;
+width: 100%;
 }
-.menu-content {
-}
-
 .content-diary {
-	max-width: 900px;
-	margin: 0 auto;
+max-width: 900px;
+margin: 0 auto;
 }
 .photodiary {
 font-family: Ubuntu;
@@ -82,19 +73,14 @@ color: #b4ad9e;
 padding-top: 52px ;
 }
 .grid-loyout {
-	padding-top: 134px;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	max-width: 900px;
-	margin: 0 auto;
-	grid-column-gap: 32px;
-	grid-row-gap: 132px;
-}
-.block {
-
-}
-.block-photo {
+padding-top: 134px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+max-width: 900px;
+margin: 0 auto;
+grid-column-gap: 32px;
+grid-row-gap: 132px;
 }
 .block-info {
 font-family: Ubuntu;
@@ -104,7 +90,7 @@ color: #b4ad9e;
 padding: 32px 0 32px 0;
 }
 .block-title {
-	font-family: 'Playfair Display';
+font-family: 'Playfair Display';
 font-size: 30px;
 color: #626262;
 padding-bottom: 32px;
@@ -115,80 +101,84 @@ font-size: 14px;
 line-height: 24px;
 color: #626262;
 }
-.feedback {
-	padding-top: 122px;
-	max-height: 287px;
-	background-color: #f0f0f0;
-	
-}
-.feedback-wrapper{
 
-	
-}
-.feeback-text {
-}
-.cool-button {
-}
-.button-img {
-}
 .main-button {
-	display: flex;
-	justify-content: center;
-	padding: 88px 0 88px 0;
-	
+display: flex;
+justify-content: center;
+padding: 88px 0 88px 0;
 }
 .load-more {
-	display: flex;
+display: flex;
 align-items: center;
 justify-content: center;
 border: 1px solid #626262;
 width: 164px;
-height: 60px;  
-
-
-
-	
-
+height: 60px; 
+} 
+.form-wrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 75px 0 75px 0;
+margin: 125px 0 100px 0;
+}
+.form__title {
+font-family: 'Playfair Display';
+font-size: 30px;
+letter-spacing: 0.025em;
+color: #333333;
+padding-bottom: 83px;
+}
+.form__group {
+position: relative;
+}
+.form__input {
+width: 100%;
+border: none;
+padding: 0 0 10px 0;
+border-bottom: 1px solid blue;
+background-color: transparent;
+outline: none;
+transition: 0.3s;
+}
+.form__label {
+position: absolute;
+left: 0;
+z-index: -1;
+transition: 0.3s;
+font-family: 'Playfair Display';
+font-size: 14px;
+color: #626262;
 }
 .button {
 font-family: 'Playfair Display';
 font-size: 20px;
 color: #626262;
 text-decoration: none;
-
 }
-.footer {
-	
-	margin-top: auto;
-	min-height: 100px;
-	background-color: #f0f0f0;
-	
+.footer {	
+margin-top: auto;
+min-height: 100px;
+background-color: #f0f0f0;
 }
 .content-down {
-	display: flex;
-	justify-content: space-between;
-	max-width: 900px;
-	margin: 0 auto;
-	height: 5em;
-    line-height: 5em;
-   
-	
+display: flex;
+justify-content: space-between;
+max-width: 900px;
+margin: 0 auto;
+height: 5em;
+line-height: 5em;	
 }
 .content-down__left {
-	
-	min-width:200px;
-	text-decoration: none;
+min-width:200px;
+text-decoration: none;
 }
 .menu-down a{
-	text-decoration: none
-}
-.menu-down {
-
+text-decoration: none
 }
 .content-down__left-list1{
-	display: flex;
-	justify-content: space-between;
-	
+display: flex;
+justify-content: space-between;
 }
 .content-down__left-list1 a{
 font-family: 'Playfair Display';
@@ -196,21 +186,14 @@ font-size: 14px;
 color: #000000;
 }
 .content-down__left-list2{
-	display: flex;
-	justify-content: space-between;
+display: flex;
+justify-content: space-between;
 }
 .content-down__left-list2 a{
-	font-family: 'Playfair Display';
+font-family: 'Playfair Display';
 font-size: 14px;
 color: #000000;
 }
 .content-down__right {
-	
 min-width:150px;
-	
-.facebook {
-}
-.twitter {
-}
-.instagram {
 }
